@@ -1,0 +1,22 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "produto": "",
+      "marca": "",
+      "valor": ""
+    },
+    {
+      "produto": "Televisor",
+      "marca": "Asus",
+      "valor": 1990,
+      "id": 2
+    },
+    {
+      "produto": "Noebook",
+      "marca": "Acer",
+      "valor": 3500,
+      "id": 3
+    }
+  ]
+}

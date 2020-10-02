@@ -1,0 +1,57 @@
+
+<form action="/cadastrar" method="POST">
+
+    <input type="text" name="usuario" placeholder="Digite seu nome">
+
+    <input type="number" name="nota1" placeholder="Digite sua Nota 1">
+    <input type="number" name="nota2" placeholder="Digite sua Nota 2">
+ 
+
+    <input type="submit" placeholder="Enviar">
+
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <td>Nome</td>
+            <td>Nota1</td>
+            <td>Nota2</td>
+            <td>Média</td>
+        </tr>
+    </thead>
+
+    <tbody>
+        {{#each notas}}
+
+          
+
+            
+        <tr>
+
+       
+            <td>{{nome}}</td>
+            <td>{{nota1}}</td>
+            <td>{{nota2}}</td>
+            <td>{{media}}</td>
+            <td name="situacao" >{{situacao}}</td>
+            <td><a href="/excluir/{{@index}}">Excluir</a></td>
+           
+
+         
+        
+         
+      
+
+
+
+        </tr>
+        {{/each}}
+    </tbody>
+
+</table>
+    
+
+ 
+        
+    

@@ -1,0 +1,3 @@
+2) Criar um formulário com os campos: nome, nota1 e nota2. A ideia do formulário é cadastrar em um JSON esses dados, além da média das duas notas e a situação. A situação basicamente consiste em aprovado caso o aluno tenha média 7 ou superior e caso contrário reprovado.
+
+Deverão ser listados todos os dados do JSON em uma tabela (nome, nota1, nota2, média e situação), além de ter um botão para excluir os dados.
