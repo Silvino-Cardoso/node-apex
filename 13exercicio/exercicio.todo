@@ -1,0 +1,18 @@
+2) Implementar um sistema para cadastrar receitas. Deverá ter as seguintes funcionalidades:
+> Cadastrar receitas
+> Listar todas as receitas (exibir o nome e um botão saiba mais)
+> Receita completa (quando clicar no botão saiba mais, exibir todos os dados da receita).
+
+As informações da API serão: nome da receita, ingredientes, modo de preparo, quantidade de pessoas que a receita serve e o id.
+
+
+
+Servidor JSON - OK
+
+Dependências Frontend : 
+ - express - OK
+ - express-handlebars - OK
+ - node - fetch - OK
+ - body-parser - OK
+
+

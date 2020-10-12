@@ -1,0 +1,5 @@
+Criar uma API com as características: artista, musica, letra e id.
+
+Sempre que iniciado o front, deverá ser feito um método GET para armazenar TODOS os dados da fake api em um JSON local.
+
+O usuário terá dois campos para preencher, um campo de artista e outro com o nome da música. Quando pesquisar retorne a letra da música, caso contrário retorne que não foi encontrada a canção.

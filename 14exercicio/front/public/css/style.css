@@ -1,0 +1,10 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-group{
+    width: 250px;
+    
+}

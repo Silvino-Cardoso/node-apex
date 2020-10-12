@@ -1,0 +1,31 @@
+<form action="/cadastrar" method="POST">
+
+    <img src="images/product.png" class="img-logo" alt="">
+    
+    <div class="info-product">
+        <input type="text" name="product" placeholder="Digite o nome do Produto" class="form-control">
+        <input type="text" name="price" placeholder="Digite o preço do Produto" class="form-control">
+    </div>
+        <input type="text" name="image" placeholder="Digite URL da imagem" class="form-control">
+
+    
+
+    <input type="submit" value="Cadastrar" class="btn btn-dark btn-sm">
+
+</form>
+
+
+<div class="content">
+   {{#each vetor}}
+    
+        <div class="card" style="width: 18rem;">
+            <img src={{image}} class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{product}}</h5>
+                <p class="card-text">Preço: {{price}}</p>
+                <a href="/remover/{{id}}" class="btn btn-danger">Remover</a>
+            </div>
+         </div>
+    {{/each}}
+</div>
+

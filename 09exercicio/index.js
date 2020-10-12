@@ -25,9 +25,7 @@ app.get('/', (req, res) =>{
     res.render('index')
 });
 
-
 let dados = []
-
 
 app.post('/cadastrar', (req, res) =>{
    
